@@ -1,0 +1,30 @@
+input {
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: transparent;
+  outline: 0;
+  color: white;
+  margin: 30px;
+}
+
+.trends {
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.219);
+  border-radius: 30px;
+  padding: 10px;
+}
+.trend {
+  display: flex;
+  margin: 20px 10px;
+  padding: 10px;
+  transition: 0.2s;
+}
+.trend:hover {
+  cursor: pointer;
+  background-color: rgba(240, 248, 255, 0.442);
+}
+.trendImg {
+  margin-right: 10px;
+  width: 120px;
+}

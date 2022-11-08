@@ -1,0 +1,34 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.logo-img {
+  width: 80px;
+  margin-top: 20px;
+}
+.logo-img img {
+  width: 100%;
+}
+.menuItems {
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 80px;
+  color: white;
+  padding: 10px 20px;
+  transition: 0.5s;
+  border-radius: 20px;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover .menuItems {
+  background-color: #ffffff5c;
+}
+svg {
+  margin-right: 40px;
+}
+input{
+  
+}
