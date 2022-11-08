@@ -1,0 +1,14 @@
+address3
+const address3=await contract1.owner()
+const address2=await contract1.owner()
+address2
+const address2=await contract1.owner
+const address1=await contract1.owner
+const address1=await contract1.address()
+const address=await contract1.address()
+const address=await contract.address()
+const name=await contract.name()
+contract1
+const contract1 = await ethers.getContractAt("tweets","0xC6010A9bfbDB93Ed05a0DfD22E8EaE18155E7ff8")
+const contract = await ethers.getContractAt("tweets","0xC6010A9bfbDB93Ed05a0DfD22E8EaE18155E7ff8")
+const contract = await ethers.getContractAt("Twitter","0xC6010A9bfbDB93Ed05a0DfD22E8EaE18155E7ff8")
