@@ -10,7 +10,26 @@ The popularity of websites like Facebook, Twitter, and YouTube is evidence of th
 
 ## Implementation
 
-Once our application is developed, we import the ethers library and then we also import the abi of the smart contract as well as its address we're going to need both of these pieces of information to create a javascript pointer. We are also importing some components from react bootstrap. We now write the web3 handler function which will connect our wallet to the application and it's going to be fired whenever the user presses the connect wallet button in the nav bar so first things first we're going to define the state of our app component so we're going to have a piece of loading state state to store the account and the decentral twitter contract. We need a piece of state to store when the app is loading or not because we don't want to display the contents of the application when blockchain data is being fetched so we're going to set loading to true initially and down here we have this ternary operator so it checks if loading is true then it displays loading page. We also have an account which we'll use to store the address of the account that's connected to our application. We're also going to store a pointer to the smart contract
+Once the application is developed, the ethers library and smart contract abi is imported along with the address. These two pieces of information are used to create a javascript pointer. Some design components are further imported from react bootstrap. The web3 handler function will connect the wallet to the application and it's going to be fired whenever the user presses the connect wallet button in the nav bar. The state of our app component is defined so we're going to have a piece of loading state state to store the account and the decentral twitter contract. Another state is used to store when the app is loading as the display of contents of the application are hidden till the blockchain data is being fetched using a ternary operator for displaying all the screens. The account state is used to store the address of the account that's connected to our application. A pointer is created to store the smart contract. 
+
+Loading Screen
+
+![image](https://user-images.githubusercontent.com/80235375/236333023-d4a9fbf9-a69d-4820-a55f-27befa348861.png)
+
+Connected to MetaMask
+
+![image](https://user-images.githubusercontent.com/80235375/236334095-295bb76b-478e-48c8-b8b8-02519958baeb.png)
+
+Add Post
+
+![image](https://user-images.githubusercontent.com/80235375/236334293-025f1934-b2aa-457d-a4a5-e3002b09009e.png)
+
+Profile Page
+
+![image](https://user-images.githubusercontent.com/80235375/236334482-e373f816-467c-40b3-9793-e5ee83553a67.png)
+
+
+
 
 ## Workflow
 
