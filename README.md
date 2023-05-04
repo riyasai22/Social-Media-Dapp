@@ -2,7 +2,7 @@
 
 ## Abstract
 
-The popularity of websites like Facebook, Twitter, and YouTube is evidence of the social media's significance and the effects it has had on people and businesses.One of the most often used social media sites for people in the cryptocurrency space is Twitter. However, cryptocurrency users understand that a decentralized version of Twitter would be quite advantageous because it would get rid of all the drawbacks of its centralized platform. As part of our project we will be creating a Web3 Twitter clone. Such a platform may house the numerous benefits that blockchain technology offers and can offer users real decentralization by developing and deploying a Twitter clone with Web3 capability.
+The popularity of websites like Facebook, Twitter, and YouTube is evidence of the social media's significance and the effects it has had on people and businesses. One of the most often used social media sites for people in the cryptocurrency space is Twitter. However, cryptocurrency users understand that a decentralized version of Twitter would be quite advantageous because it would get rid of all the drawbacks of its centralized platform. As part of our project we will be creating a Web3 Twitter clone. Such a platform may house the numerous benefits that blockchain technology offers and can offer users real decentralization by developing and deploying a Twitter clone with Web3 capability.
 
 ## Architechture
 ![Dapp](https://user-images.githubusercontent.com/80235375/236331919-00b64bb4-94d2-450a-8082-f006c8f19819.png)
@@ -20,6 +20,8 @@ Once our application is developed, we import the ethers library and then we also
 4. On running the deploy.js script, it we'll deploy this smart contract to a local development blockchain. It uses the moca testing framework and the chai assertion library to execute the tests and it uses the ethers library as a library for blockchain interactions it allows us to talk to ethereum nodes from a javascript environment. Inside the hardhat.config file we specify the version of the solidity compiler we're going to be using to compile our smart contracts. 
 5. We used react bootstrap to style the front end portion of our website. We're also using react router dom dependency to allow us to route between a home page and a profile page for the app. 
 6. The IPFS http client is set up to store the metadata of the NFTs and the posts programmatically. Also open zeppelin smart contract library is used to reference a ERC 721 NFT standard contract inside of our decentral twitter smart contract.
+
+## Run and Execute
 
 ```shell
 
